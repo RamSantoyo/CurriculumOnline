@@ -1,0 +1,44 @@
+/* variables */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+:root {
+  --fuente-1: 'Kumbh Sans', sans-serif;
+  --fuente-2: 'Commissioner', sans-serif;
+  /*Tamaños*/
+  --grande900: 900;
+  --grande700: 700;
+  --regular500: 500;
+  --regular300: 300;
+  --delgada200: 200;
+
+  /*colores*/
+  --colortexto: #2b2c34;
+  --colorfondo: #f5f5f5;
+  --colorprimario: #6246ea;
+  --colorsecundario: #d1d1e9;
+  --colorterceario: #e45858;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+/** Utilidades **/
+
+.contenedor{
+  width: min(85%);
+  margin: 0 auto;
+}
+
+.seccion {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+body{
+  font-family: var(--fuente-2);
+  color: var(--colortexto);
+  background-color: var(--colorfondo);
+  transition: 0.5s;
+}

@@ -1,0 +1,52 @@
+.dark{
+    background-color: #242629;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.dark .fa-brands{
+    color: #ffffff;
+}
+.dark .title-e{
+    color: #ffffff;
+}
+.dark .tarjeta{
+    background-color: #16161a;
+    color: #ffffff;
+}
+.dark .cnt-tarjeta h1{  
+    color: #94a1b2;
+}
+
+.dark .cntp{
+    color: #ffffff;
+}
+
+.dark .cnt{
+    color: var(--colorprimario);
+}
+
+.dark .cursos{
+    background-color: #9099a8;
+    color: #ffffff;
+}
+
+.dark .tarjeta-cursos{ 
+    background-color: #16161a;
+    color: #ffffff;
+}
+
+.dark .accordion{
+    background-color: #242629;
+    color: #ffffff;
+}
+.dark .año{
+    color: var(--colorsecundario) !important;
+}
+
+.dark .card{
+    background-color: #16161a;
+}
+
+.dark .cnt-tarjetas-prt h2{
+    color: #ffffff !important;
+}
